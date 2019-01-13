@@ -1,0 +1,78 @@
+{
+"Moh@k" : [
+
+	{"question":"Where was Football World Cup 2018 held?",
+      "optionA": "Argentina",
+      "optionB": "China",
+      "optionC" : "Russia",
+      "optionD": "Spain",
+	  "correctAnswer":"3",
+	  "cheat":"Russia"
+	  },
+
+	{"question":"When did Football World Cup 2018 begin?",
+	"optionA": "12 May",
+      "optionB": "1 April",
+      "optionC" : "14 June",
+      "optionD": "12 July",
+	"correctAnswer":"3",
+	"cheat":"14 June"
+	},
+
+	{"question":"Who shot the first goal in Football World Cup 2018?",
+      "optionA": "Kane",
+      "optionB": "Ronaldo",
+      "optionC" : "Messi",
+      "optionD": "Yury",
+	"correctAnswer":"4",
+	"cheat":"Yury"
+	},
+
+	{"question":"Who scored three goals for Portugal against Spain in Football World Cup 2018?",
+      "optionA": "Silva",
+      "optionB": "Ronaldo",
+      "optionC" : "Messi",
+      "optionD": " Martin",
+	"correctAnswer":"2",
+	"cheat":"Ronaldo"
+	},
+
+	{"question":"Who scored Australia’s goal against France in Football World Cup 2018?",
+      "optionA": "Tomme",
+      "optionB": "Mile",
+      "optionC" : "Kane",
+      "optionD": "Kaka",
+	"correctAnswer":"2",
+	"cheat":"Mile"
+	},
+
+	{"question":"Who won the worldcup 2018",
+      "optionA": "Russia",
+      "optionB": "Japan",
+      "optionC" : "France",
+      "optionD": "Germany",
+	"correctAnswer":"3",
+	"cheat":"France"
+	},
+
+	{"question":"Which team got eliminated on fair play in Football World Cup 2018?",
+      "optionA": "Senegal",
+      "optionB": "Germany",
+      "optionC" : "China",
+      "optionD": "India",
+	"correctAnswer":"1",
+	"cheat":"Senegal"
+	},
+
+	{"question":"Who were fourth in Football World Cup 2018?",
+      "optionA": "France",
+      "optionB": "England",
+      "optionC" : "Argentina",
+      "optionD": "China",
+	"correctAnswer":"2",
+	"cheat":"England"
+	}
+	
+
+]
+}

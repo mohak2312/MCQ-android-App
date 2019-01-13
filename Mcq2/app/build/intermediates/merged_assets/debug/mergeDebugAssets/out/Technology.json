@@ -1,0 +1,77 @@
+{
+"Moh@k" : [
+
+	{"question":"What year was the world’s first mobile phone handset released for sale?",
+      "optionA": "1992",
+      "optionB": "1983",
+      "optionC" : "1990",
+      "optionD": "2000",
+	  "correctAnswer":"2",
+	  "cheat":"1983"
+	  },
+
+	{"question":"On average how many SMS messages are sent via mobile phone per phone user every day? ",
+	"optionA": "2.5",
+      "optionB":"1",
+      "optionC" : "3.5",
+      "optionD": "4",
+	"correctAnswer":"1",
+	"cheat":"2.5"
+	},
+
+	{"question":"Who designed the ‘first’ small computer for home use?",
+      "optionA": "Charly",
+      "optionB": "Jonathan",
+      "optionC" : "Steave",
+      "optionD": " John Blankenbaker ",
+	"correctAnswer":"4",
+	"cheat":" John Blankenbaker "
+	},
+
+	{"question":"When was the first email sent over the internet?",
+      "optionA": "1994",
+      "optionB": "1984",
+      "optionC" : "1971",
+      "optionD": "1922",
+	"correctAnswer":"3",
+	"cheat":"1971"
+	},
+
+	{"question":"When was the internet created?",
+      "optionA": "1924",
+      "optionB": "1984",
+      "optionC" : "1968",
+      "optionD": "1922",
+	"correctAnswer":"3",
+	"cheat":"1968"
+	},
+
+	{"question":"The World Wide Web was created in …",
+      "optionA": "1994",
+      "optionB": "1984",
+      "optionC" : "1989",
+      "optionD": "1922",
+	"correctAnswer":"3",
+	"cheat":"1989"
+	},
+
+	{"question":"Colour TV was first broadcast in Australia in:",
+     "optionA": "1996",
+      "optionB": "1987",
+      "optionC" : "1975",
+      "optionD": "1982",
+	"correctAnswer":"3",
+	"cheat":"1975"
+	},
+
+	{"question":"What percentage of Australian households have digital TV?",
+      "optionA": "62",
+      "optionB": "52",
+      "optionC" : "42",
+      "optionD": "82",
+	"correctAnswer":"3",
+	"cheat":"42"
+	}
+
+]
+}

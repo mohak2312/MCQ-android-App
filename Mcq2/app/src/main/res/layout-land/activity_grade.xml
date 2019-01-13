@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mcq_3.edu.pdx.mohak.ece558.mcq.GradeActivity">
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+
+        android:text="Results" />
+
+    <TextView
+        android:id="@+id/total_que"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="125dp"
+        android:text="Number of  questions :"
+
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/num_of_que"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/total_que"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/total_que"
+        android:hint="total"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/correct_answer"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="169dp"
+        android:text="         Correct Answer :"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/correct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/correct_answer"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/correct_answer"
+        android:hint="Correct !"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/num_of_cheated"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="219dp"
+        android:text="   Number of Cheated :"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/cheated"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/num_of_cheated"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/num_of_cheated"
+        android:hint="cheated"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/num_of_cheated"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="223dp"
+        android:text="Quit" />
+
+    <Button
+        android:id="@+id/play_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/num_of_cheated"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="223dp"
+        android:layout_marginTop="26dp"
+        android:text="Play Again" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="84dp"
+        android:text="                  User Name :"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="-13dp"
+        android:layout_toEndOf="@+id/textView"
+        android:textSize="25dp" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mcq_3.edu.pdx.mohak.ece558.mcq.GradeActivity">
+
+    <!-- For label results-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="Results" />
+
+    <!-- for label no of question -->
+    <TextView
+        android:id="@+id/total_que"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="132dp"
+        android:text="Number of  questions :"
+
+        android:textSize="25dp" />
+
+    <!-- For no of questions-->
+    <TextView
+        android:id="@+id/num_of_que"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/total_que"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="19dp"
+        android:hint="total"
+        android:textSize="25dp" />
+
+    <!--For label -->
+    <TextView
+        android:id="@+id/correct_answer"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="175dp"
+        android:text="          Correct Answer :"
+        android:textSize="25dp" />
+
+    <!--For no of correct answer -->
+    <TextView
+        android:id="@+id/correct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/num_of_que"
+        android:layout_alignTop="@+id/correct_answer"
+        android:hint="Correct !"
+        android:textSize="25dp" />
+
+    <!-- for label -->
+    <TextView
+        android:id="@+id/num_of_cheated"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="219dp"
+        android:text="   Number of Cheated :"
+        android:textSize="25dp" />
+    <!-- FOr no of cheated que-->
+    <TextView
+        android:id="@+id/cheated"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/num_of_cheated"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="13dp"
+        android:hint="cheated"
+        android:textSize="25dp" />
+
+    <!-- For quit button-->
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/num_of_cheated"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="92dp"
+        android:text="Quit" />
+
+    <!-- For play again button-->
+    <Button
+        android:id="@+id/play_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/num_of_cheated"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="44dp"
+        android:text="Play Again" />
+
+    <!-- for label-->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="84dp"
+        android:text="                 User Name :"
+        android:textSize="25dp" />
+    <!-- For user to enter username-->
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="127dp"
+        android:layout_height="71dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="-16dp"
+        android:layout_toEndOf="@+id/textView"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>

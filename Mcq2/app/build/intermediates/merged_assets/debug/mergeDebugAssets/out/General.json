@@ -1,0 +1,77 @@
+{
+"Moh@k" : [
+
+	{"question":"Mount Everest is located in ?",
+      "optionA": "India",
+      "optionB": "Nepal",
+      "optionC" : "Tibet",
+      "optionD": "China",
+	  "correctAnswer":"2",
+	  "cheat":"Nepal"
+	  },
+
+	{"question":"D.D.T. was invented by ? ",
+	"optionA": "Mosley",
+      "optionB": "Rudeolf",
+      "optionC" : "Karl Benz",
+      "optionD": "Dalton",
+	"correctAnswer":"1",
+	"cheat":"Mosley"
+	},
+
+	{"question":"Which is considered as the biggest port of India ? ",
+      "optionA": "Kolkata",
+      "optionB": "Cochin",
+      "optionC" : "Chennai",
+      "optionD": "Mumbai",
+	"correctAnswer":"4",
+	"cheat":"Mumbai"
+	},
+
+	{"question":"The gas used for making vegetables is ?",
+      "optionA": "Oxygen",
+      "optionB": "Carbon dioxide",
+      "optionC" : "Hydrogen",
+      "optionD": "Nitrogen",
+	"correctAnswer":"3",
+	"cheat":"Hydrogen"
+	},
+
+	{"question":"Which soil is suitable for agriculture ?",
+	"optionA": "Red soil",
+      "optionB": "Sand",
+      "optionC" : "Black soil",
+      "optionD": "Peaty soil",
+	"correctAnswer":"4",
+	"cheat":"Peaty soil"
+	},
+
+	{"question":"Black soils are best suited for the cultivation of ?",
+      "optionA": "Cotton",
+      "optionB": "Rice",
+      "optionC" : "Cereals",
+      "optionD": "Sugarcane",
+	"correctAnswer":"1",
+	"cheat":"Cotton"
+	},
+
+	{"question":"The device used for measuring altitudes is ?",
+      "optionA": "altimeter",
+      "optionB": "ammeter",
+      "optionC" : "audiometer",
+      "optionD": "galvanometer",
+	"correctAnswer":"1",
+	"cheat":"altimeter"
+	},
+
+	{"question":"The Gate way of India is in?",
+      "optionA": "Chennai",
+      "optionB": "Mumbai",
+      "optionC" : "Kolkata",
+      "optionD": "New Delhi",
+	"correctAnswer":"2",
+	"cheat":"Mumbai"
+	}
+
+]
+}

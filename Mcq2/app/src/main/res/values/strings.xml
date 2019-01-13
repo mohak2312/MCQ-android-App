@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Mcq</string>
+    <string name="judgment_toast">No marks for this answer!</string>
+    <string name="correct_toast">CORRECT!</string>
+    <string name="incorrect_toast">INCORRECT!</string>
+    <string name="numbercorrect">Correct</string>
+    <string name="savedscore">prev_score</string>
+
+    <!-- Different quiz file name-->
+    <string-array name="spinner_array">
+        <item>Football</item>
+        <item>General</item>
+        <item>Technology</item>
+    </string-array>
+</resources>

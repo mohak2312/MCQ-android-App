@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mcq_3.edu.pdx.mohak.ece558.mcq.QuizActivity">
+
+    <!-- For question-->
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="347dp"
+        android:layout_height="133dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="Hello World!"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <!-- For radio buttons-->
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radio_group"
+        android:layout_width="371dp"
+        android:layout_height="136dp"
+        android:layout_below="@+id/question"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="62dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="233dp">
+
+        <RadioButton
+            android:id="@+id/first_ans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:textSize="25dp"
+
+            />
+
+        <RadioButton
+            android:id="@+id/second_ans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ninjas"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:id="@+id/third_ans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="third"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:id="@+id/fourth_ans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fourth"
+            android:textSize="25dp" />
+    </RadioGroup>
+
+    <!-- for next button-->
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="240dp"
+        android:layout_marginBottom="202dp"
+        android:text="NEXT" />
+
+    <!-- for cheat button-->
+    <Button
+        android:id="@+id/cheat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/next"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="227dp"
+        android:layout_marginBottom="-2dp"
+        android:text="CHEAT" />
+
+
+</RelativeLayout>
